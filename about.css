@@ -1,0 +1,53 @@
+body {
+   background-image: url(images/backbody.jpg);
+   background-attachment: fixed;
+}
+
+#name {
+   color: #0000EE;
+   font-size: 75px;
+   font-family: 'Satisfy', cursive;
+   text-align: center;
+   text-shadow: 5px 5px 15px black;
+}
+
+nav {
+   font-family: 'Cookie', cursive;
+   text-align: center;
+   text-shadow: 1px 2px 4px black;
+   font-size: 0px;
+}
+
+a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 30px;
+}
+
+footer {
+   text-align: center;
+}
+
+section {
+   text-align: center;
+}
+
+.port {
+   height: 500px;
+   width: 375px;
+   border-radius: 15%;
+}
+
+#aboutme {
+   font-family: 'Kaushan Script', cursive;
+}
+
+p {
+   font-family: 'Philosopher', sans-serif;
+}
+
+.iconsoc {
+   width: 32px;
+   height: 32px;
+   border-radius:50%;
+}

@@ -1,0 +1,74 @@
+body {
+    background-image: url(images/backbody.jpg);
+    background-attachment: fixed;
+}
+
+#name {
+   color: #0000EE;
+   font-size: 75px;
+   font-family: 'Satisfy', cursive;
+   text-align: center;
+   text-shadow: 5px 5px 15px black;
+}
+
+nav {
+   font-family: 'Cookie', cursive;
+   text-align: center;
+   text-shadow: 1px 2px 4px black;
+   font-size: 0px;
+}
+
+a {
+   text-decoration: none;
+   color: yellow;
+   font-size: 30px;
+}
+
+section {
+    text-align: center;
+}
+
+#contactme {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.icongsm {
+    width: 32px;
+    height: 30px;
+}
+
+#iconmtc {
+    width: 45px;
+    height: 32px;
+}
+
+#icong {
+    width: 30px;
+    height: 20px;
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+}
+
+#mailto {
+    font-size: 20px;
+    color:black;
+}
+
+footer {
+    text-align: center;
+}
+
+.iconsoc {
+   width: 32px;
+   height: 32px;
+   border-radius:50%;
+}
+
+
+iframe {
+    border-radius: 10%;
+    border: 4px;
+}

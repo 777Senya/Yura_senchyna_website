@@ -1,0 +1,51 @@
+nav {
+    font-family: 'Cookie', cursive;
+    text-align: center;
+    text-shadow: 1px 2px 4px black;
+    font-size: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+}
+
+body {
+    background-image: url(images/backbody.jpg);
+    background-attachment: fixed;
+}
+
+#name {
+    color: #0000EE;
+    font-size: 75px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    text-shadow: 5px 5px 15px black;
+}
+
+footer {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+.album {
+    height: 500px;
+    width: 800px;
+    border-radius: 300px 300px 300px 300px;
+}
+
+.port {
+    height: 500px;
+    width: 375px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.iconsoc {
+   width: 32px;
+   height: 32px;
+   border-radius:50%;
+}
