@@ -12,7 +12,7 @@ a {
 }
 
 body {
-    background-image: url(images/backbody.jpg);
+    background-image: url(images/background.sbg);
     background-attachment: fixed;
 }
 
@@ -33,14 +33,10 @@ article {
 }
 
 .album {
-    height: 500px;
-    width: 800px;
     border-radius: 300px 300px 300px 300px;
 }
 
 .port {
-    height: 500px;
-    width: 375px;
     border-radius: 50% 50% 50% 50%;
 }
 
