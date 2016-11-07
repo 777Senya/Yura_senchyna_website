@@ -1,54 +1,100 @@
-/**/
+/*для границ строницы*/
+
 * {
-    max-width:1280px;
-    margin:5px auto;
+    max-width: 1280px;
+    margin: 5px auto;
 }
-* a{
+
+* a {
     text-decoration: none;
 }
+
 body {
-    background-image: url(home/background.sbg);
+    background-image: url(home/background.svg);
     background-attachment: fixed;
-    
+    background-size: cover;
 }
+
+
 /**/
-.name{
-    text-align: center;
-}
-#name {
-    font-family: 'Satisfy', cursive;
-    font-size:35px;
-}
-nav {
-    display: inline;
-    font-family: 'Cookie', cursive;
-    font-size:45px;
-}
-#nav{
-    padding: 0 300px;
-    text-align:center;
-}
-table{
-    height:30px;
-    width:100%;
-}
 
-
-
-
-
+w
+/*images*/
 
 .album {
     border-radius: 300px 300px 300px 300px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
 
 .port {
     border-radius: 50% 50% 50% 50%;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+}
+
+.rimg {
+    margin: 0;
+}
+
+.r {
+    display: block;
+    margin: 0;
 }
 
 .iconsoc {
-   width: 32px;
-   height: 32px;
-   border-radius:50%;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
 }
 
+
+/**/
+
+.name {
+    text-align: center;
+}
+
+#name {
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    color: #007FFF;
+}
+
+a {
+    color: #00A86B;
+}
+
+nav {
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+}
+
+#nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0 300px;
+}
+
+.f_stroka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.s_stroka {
+    display: flex;
+    justify-content: space-around;
+}
+
+.t_stroka {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#footer {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
