@@ -51,37 +51,21 @@ nav {
     justify-content: space-around;
     padding:0 300px;
 }
-section{
-   display: -webkit-flex;
-	display: flex;
-	-webkit-flex-flow: row nowrap;
-	flex-flow: row nowrap;
-	-webkit-justify-content: center;
-	justify-content:center;
-}
-#ramka{
-    -webkit-flex: 1 auto;
-	flex: 1 auto;
-    border: 30px solid;
-    border-image:url(home/ramka.png);
-}
-
-article {
-   text-align: center;
+article{
+    display:block;
 }
 
 #aboutme {
-   font-family: 'Shrikhand', cursive;;
+   font-family: 'Shrikhand', cursive;
 }
 
-p {
-   font-family: 'Cormorant Infant', serif;;
+* p {
+   font-family: 'Cormorant Infant', serif;
 }
 
 #footer {
-    display: block;
-    flex-direction: row;
-    justify-content: flex-start;
+    position:fixed;
+    bottom: 0;
     text-align: center;
 }
 
