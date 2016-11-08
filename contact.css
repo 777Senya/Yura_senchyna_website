@@ -108,3 +108,7 @@ h2 {
     font-size: 20px;
     font-family: 'Cormorant Infant', serif;
 }
+#footer {
+    display: block;
+    text-align: center;
+}
