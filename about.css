@@ -1,71 +1,116 @@
 /*для границ строницы*/
+
 * {
-    max-width:1280px;
-    margin:0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
-* a{
+
+* a {
     text-decoration: none;
 }
+
 body {
     background-image: url(home/background.svg);
     background-attachment: fixed;
     background-size: cover;
-    
 }
 
+
 /**/
+
+
 /*images*/
 
-.rimg{
-    margin:0;
-}
-.r {
-    display:block;
-    margin:0;
-}
-.iconsoc {
-   width: 25px;
-   height: 25px;
-   border-radius:50%;
+.rimg {
+    margin: 0;
 }
 
-/**/
-.name{
-    text-align: center;
+.r {
+    display: block;
+    margin: 0;
 }
+
+.iconsoc {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+
+/**/
+
+.name {
+    text-align: center;
+    margin: 10px;
+}
+
 #name {
     font-family: 'Marck Script', cursive;
     font-size: 50px;
-    color:#007FFF;
+    color: #007FFF;
+    margin: 5px auto;
 }
-a{
-    color:	#00A86B;
+
+a {
+    color: #00A86B;
 }
+
 nav {
     font-family: 'Cookie', cursive;
-    font-size:45px;
+    font-size: 45px;
 }
-#nav{
+
+#nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
-    padding:0 300px;
+    padding: 0 300px;
 }
-article{
-    display:block;
+
+article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.foto_article {
+    margin-top: 5px;
+    border: 20px solid;
+    -o-border-image: url(home/ramka.png) 20 stretch;
+    border-image: url(home/ramka.png) 20 stretch;
 }
 
 #aboutme {
-   font-family: 'Shrikhand', cursive;
+    color: #FE6F5E;
+    margin-top: 5px;
+    font-family: 'Shrikhand', cursive;
 }
 
-* p {
-   font-family: 'Cormorant Infant', serif;
+h2 {
+    font-size: 35px;
 }
 
-#footer {
-    position:fixed;
-    bottom: 0;
+.text {
+    max-width: 550px;
+    margin: 0 auto;
     text-align: center;
 }
 
+* p {
+    font-size: 20px;
+    font-family: 'Cormorant Infant', serif;
+}
+
+#footer {
+    display: block;
+    text-align: center;
+}
