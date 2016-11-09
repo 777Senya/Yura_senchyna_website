@@ -31,8 +31,8 @@ body {
 }
 
 .iconsoc {
-    width: 25px;
-    height: 25px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
 }
 
@@ -74,6 +74,8 @@ nav {
 iframe {
     border-radius: 10%;
     border: 4px;
+    width:750px;
+    height:450px;
 }
 
 section {
@@ -88,7 +90,43 @@ section {
 h2 {
     font-size: 35px;
 }
-
+label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #444444;
+    display: block;
+}
+input {
+    display: block;
+    border: 2px solid #cfcfcf;
+    font-size: 14px;
+    color: #444444;
+    padding: 7px 7px 8px;
+    width: 250px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+span{
+    color:red;
+}
+.submit{
+    border: none;
+    width: 180px;
+    text-align: center;
+    background: #07a6e6;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    height: 35px;
+    line-height: 28px;
+    padding: 0;
+}
+.submit:hover {
+    background: #009ac2;
+}
 .icongsm {
     width: 32px;
     height: 30px;
@@ -108,7 +146,15 @@ h2 {
     font-size: 20px;
     font-family: 'Cormorant Infant', serif;
 }
+
 #footer {
     display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     text-align: center;
 }

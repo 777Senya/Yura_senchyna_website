@@ -31,8 +31,8 @@ body {
 }
 
 .iconsoc {
-    width: 25px;
-    height: 25px;
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
 }
 
@@ -109,8 +109,14 @@ h2 {
     font-size: 20px;
     font-family: 'Cormorant Infant', serif;
 }
-
 #footer {
     display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     text-align: center;
 }
