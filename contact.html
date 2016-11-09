@@ -29,8 +29,8 @@
         </div>
     </nav>
     <section>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.59599703756!2d24.063872816034504!3d49.83125797939478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add4c881533fd%3A0x41a3a411aa15c15e!2z0LLRg9C70LjRhtGPINCf0LDRgdGW0YfQvdCwLCAyMiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1477966436773"
-            width="750" height="450" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.59599703756!2d24.063872816034504!3d49.83125797939478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add4c881533fd%3A0x41a3a411aa15c15e!2z0LLRg9C70LjRhtGPINCf0LDRgdGW0YfQvdCwLCAyMiwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1suk!2sua!4v1477966436773"  allowfullscreen>
+        </iframe>
         <article>
             <h2 id="contactme">
                 Contackt me
@@ -49,15 +49,17 @@
                 Feedback
             </h2>
             <form method="POST" action="">
+                <div id="form">
                 <label for="Name">Your Name <span>*</span>:</label>
-                <input type="text" name="Name" id="Name" required placeholder="Yura" autocomplete/>
+                <input type="text" name="Name" id="Name" required placeholder="Yura" autocomplete/><span></span>
                 <label for="Surname">Your Surname<span>*</span>:</label>
-                <input type="text" name="Surname" id="Surname" required placeholder="Senchuna"/>
+                <input type="text" name="Surname" id="Surname" required placeholder="Senchuna"/><span></span>
                 <label for="tel">Tel.Number<span>*</span>:</label>
-                <input type="tel" name="Surname" id="Surname" required placeholder="+X-X(XXX)-XXX-XX-XX"/>
+                <input type="tel" name="Surname" id="Surname" required placeholder="+X-X(XXX)-XXX-XX-XX"/><span></span>
                 <label for="Email">Your Email<span>*</span>:</label>
-                <input type="email" name="Email" id="Email" required placeholder="simple@example.com"/>
+                <input type="email" name="Email" id="Email" required placeholder="simple@example.com"/><span></span><br>
                 <input type="submit" name="submit" class="submit"/>
+                </div>
             </form>
         </article>
     </section>

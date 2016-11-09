@@ -1,7 +1,7 @@
 /*для границ строницы*/
 
 * {
-    max-width: 780px;
+    max-width: 450px;
     margin: 5px auto;
 }
 
@@ -22,13 +22,27 @@ body {
 /*images*/
 
 .album {
+    height:250px;
+    width:420px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-
+#fat{
+    height:250px;
+    width:350px;
+    border-radius: 300px 300px 300px 300px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+}
 .port {
+    
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+}
+#ol{
+    height:290px;
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
+    
 }
 
 .rimg {
@@ -55,7 +69,7 @@ body {
 
 #name {
     font-family: 'Marck Script', cursive;
-    font-size: 45px;
+    font-size: 40px;
     color: #007FFF;
 }
 
@@ -65,7 +79,7 @@ a {
 
 nav {
     font-family: 'Cookie', cursive;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 #nav {
