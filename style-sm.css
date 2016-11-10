@@ -94,12 +94,11 @@ a {
     color: #00A86B;
 }
 
-nav {
+nav > a {
+    font-size: 25px;
     font-family: 'Cookie', cursive;
 }
-nav > a{
-    font-size: 25px
-}
+
 nav {
     display: -webkit-box;
     display: -ms-flexbox;
