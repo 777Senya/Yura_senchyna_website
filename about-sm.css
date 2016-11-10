@@ -55,12 +55,11 @@ a {
     color: #00A86B;
 }
 
-nav {
+nav > a{
+    font-size: 25px;
     font-family: 'Cookie', cursive;
 }
-nav > a{
-    font-size: 25px
-}
+
 nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -68,9 +67,10 @@ nav {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    padding: 0 100px;
+    justify-content: center;
+    padding:0 60px;
 }
+
 
 article {
     display: -webkit-box;
