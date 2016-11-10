@@ -57,10 +57,11 @@ a {
 
 nav {
     font-family: 'Cookie', cursive;
-    font-size: 45px;
 }
-
-#nav {
+nav > a{
+    font-size: 45px
+}
+nav {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -118,11 +119,12 @@ input:invalid + span:after {
     content: url(iconsoc/bd.png);
     padding-left: 5px;
 }
-input:valid, :focus {
+
+input:valid :focus {
     outline: none;
     border: 2px solid green;
 }
-input:invalid, :focus {
+input:invalid :focus {
     outline: none;
     border: 2px solid red;
 }
