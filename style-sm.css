@@ -98,7 +98,7 @@ nav {
     font-family: 'Cookie', cursive;
 }
 nav > a{
-    font-size: 15px
+    font-size: 20px
 }
 nav {
     display: -webkit-box;
@@ -108,7 +108,7 @@ nav {
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
     justify-content: center;
-    padding:0;
+    padding:0 35px;
 }
 
 .f_stroka {
