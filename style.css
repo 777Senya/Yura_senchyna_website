@@ -63,12 +63,11 @@ a {
     color: #00A86B;
 }
 
-nav {
-    font-family: 'Cookie', cursive;
-}
 nav > a{
-    font-size: 45px
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
 }
+
 nav {
     display: -webkit-box;
     display: -ms-flexbox;
