@@ -107,8 +107,8 @@ nav {
     -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
-    padding: 0 100px;
+    justify-content: center;
+    padding:0;
 }
 
 .f_stroka {
