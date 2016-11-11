@@ -87,6 +87,7 @@ nav {
     flex-direction: row;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    margin: 15px 0;
 }
 
 .s_stroka {
@@ -95,6 +96,7 @@ nav {
     display: flex;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    margin: 15px 0;
 }
 
 .t_stroka {
@@ -107,6 +109,7 @@ nav {
     flex-direction: row;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+    margin: 15px 0;
 }
 
 #soc {
