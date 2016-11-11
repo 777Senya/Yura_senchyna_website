@@ -23,11 +23,8 @@ body {
 
 .rimg {
     margin: 0;
-}
-
-.r {
-    display: block;
-    margin: 0;
+    height:20px;
+    width:30px;
 }
 
 .iconsoc {
@@ -111,7 +108,13 @@ h2 {
     font-family: 'Cormorant Infant', serif;
 }
 
-#footer {
-    display: block;
-    text-align: center;
+#soc{
+    display:flex;
+    flex-direction:row;
+    margin:5px 45px;
+    justify-content: space-around;
+}
+.copy-right{
+    display:inline-flex;
+    font-size: 10px;
 }

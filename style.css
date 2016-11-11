@@ -2,7 +2,7 @@
 
 * {
     max-width: 1280px;
-    margin: 5px auto;
+    margin: 0px auto;
 }
 
 * a {
@@ -33,16 +33,13 @@ body {
 
 .rimg {
     margin: 0;
-}
-
-.r {
-    display: block;
-    margin: 0;
+    height:18px;
+    width:28px;
 }
 
 .iconsoc {
-    width: 36px;
-    height: 36px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
 }
 
@@ -111,14 +108,13 @@ nav {
     flex-wrap: nowrap;
 }
 
-#footer {
-    display: block;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    text-align: center;
+#soc{
+    display:flex;
+    flex-direction:row;
+    margin:5px 45px;
+    justify-content: space-around;
+}
+.copy-right{
+    display:inline-flex;
+    font-size: 13px;
 }
