@@ -18,10 +18,29 @@ body {
 
 /**/
 
+
+/*images*/
+
 .iconsoc {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+}
+
+/**/
+
+.name {
+    text-align: center;
+}
+
+#name {
+    font-family: 'Marck Script', cursive;
+    font-size: 40px;
+    color: #007FFF;
+}
+
+a {
+    color: #00A86B;
 }
 
 nav>a {
@@ -41,9 +60,22 @@ nav {
     padding: 0 60px;
 }
 
-iframe {
-    border-radius: 10%;
-    border: 4px;
-    width: 300px;
-    height: 300px;
+#soc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 5px 45px;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.copy-right {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 10px;
 }

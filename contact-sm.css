@@ -18,10 +18,28 @@ body {
 
 /**/
 
+
+/*images*/
+
 .iconsoc {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+}
+
+
+/**/
+
+.name {
+    text-align: center;
+    margin: 10px;
+}
+
+#name {
+    font-family: 'Marck Script', cursive;
+    font-size: 45px;
+    color: #007FFF;
+    margin: 5px auto;
 }
 
 nav>a {
