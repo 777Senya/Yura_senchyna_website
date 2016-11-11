@@ -22,50 +22,55 @@ body {
 /*images*/
 
 .album {
-    height:250px;
-    width:420px;
+    height: 250px;
+    width: 420px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-#fat{
-    height:250px;
-    width:350px;
+
+#fat {
+    height: 250px;
+    width: 350px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
+
 .port {
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-#patriot{
-    height:450px;
-    width:320px;
+
+#patriot {
+    height: 450px;
+    width: 320px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-#work{
-    height:420px;
-    width:350px;
+
+#work {
+    height: 420px;
+    width: 350px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-#group{
-    height:210px;
-    width:350px;
+
+#group {
+    height: 210px;
+    width: 350px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
-#ol{
-    height:290px;
+
+#ol {
+    height: 290px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
-    
 }
 
 .rimg {
     margin: 0;
-    height:20px;
-    width:30px;
+    height: 20px;
+    width: 30px;
 }
 
 .iconsoc {
@@ -91,7 +96,7 @@ a {
     color: #00A86B;
 }
 
-nav > a{
+nav>a {
     font-size: 25px;
     font-family: 'Cookie', cursive;
 }
@@ -104,8 +109,8 @@ nav {
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
-            justify-content: center;
-    padding:0 60px;
+    justify-content: center;
+    padding: 0 60px;
 }
 
 .f_stroka {
@@ -144,21 +149,22 @@ nav {
     flex-wrap: nowrap;
 }
 
-#soc{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-orient:horizontal;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:row;
-            flex-direction:row;
-    margin:5px 45px;
+#soc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 5px 45px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
 }
-.copy-right{
-    display:-webkit-inline-box;
-    display:-ms-inline-flexbox;
-    display:inline-flex;
+
+.copy-right {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     font-size: 10px;
 }

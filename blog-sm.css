@@ -17,12 +17,14 @@ body {
 
 
 /**/
+
 .iconsoc {
     width: 35px;
     height: 35px;
     border-radius: 50%;
 }
-nav > a{
+
+nav>a {
     font-size: 25px;
     font-family: 'Cookie', cursive;
 }
@@ -35,13 +37,13 @@ nav {
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
-            justify-content: center;
-    padding:0 60px;
+    justify-content: center;
+    padding: 0 60px;
 }
 
 iframe {
     border-radius: 10%;
     border: 4px;
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
 }

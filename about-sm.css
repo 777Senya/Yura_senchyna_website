@@ -19,19 +19,30 @@ body {
 /**/
 
 
-
 /*images*/
 
 .rimg {
     margin: 0;
-    height:20px;
-    width:30px;
+    height: 20px;
+    width: 30px;
 }
 
 .iconsoc {
     width: 35px;
     height: 35px;
     border-radius: 50%;
+}
+
+#ramka {
+    width: 300px;
+    height: 470px;
+}
+
+.foto_article {
+    margin-top: 5px;
+    border: 20px solid;
+    -o-border-image: url(home/ramka.png) 20 stretch;
+    border-image: url(home/ramka.png) 20 stretch;
 }
 
 
@@ -53,7 +64,7 @@ a {
     color: #00A86B;
 }
 
-nav > a{
+nav>a {
     font-size: 25px;
     font-family: 'Cookie', cursive;
 }
@@ -66,10 +77,9 @@ nav {
     flex-flow: row nowrap;
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
-            justify-content: center;
-    padding:0 60px;
+    justify-content: center;
+    padding: 0 60px;
 }
-
 
 article {
     display: -webkit-box;
@@ -80,13 +90,6 @@ article {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-}
-
-.foto_article {
-    margin-top: 5px;
-    border: 20px solid;
-    -o-border-image: url(home/ramka.png) 20 stretch;
-    border-image: url(home/ramka.png) 20 stretch;
 }
 
 #aboutme {
@@ -110,21 +113,22 @@ h2 {
     font-family: 'Cormorant Infant', serif;
 }
 
-#soc{
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-orient:horizontal;
-    -webkit-box-direction:normal;
-        -ms-flex-direction:row;
-            flex-direction:row;
-    margin:5px 45px;
+#soc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin: 5px 45px;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+    justify-content: space-around;
 }
-.copy-right{
-    display:-webkit-inline-box;
-    display:-ms-inline-flexbox;
-    display:inline-flex;
+
+.copy-right {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     font-size: 10px;
 }
