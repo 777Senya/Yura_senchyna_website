@@ -17,7 +17,6 @@ body {
 
 
 /**/
-
 .iconsoc {
     width: 35px;
     height: 35px;
@@ -45,7 +44,4 @@ iframe {
     border: 4px;
     width:300px;
     height:300px;
-}
-.hr{
-    width: auto;
 }

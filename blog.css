@@ -1,35 +1,83 @@
+/*для границ строницы*/
+
+* {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+* a {
+    text-decoration: none;
+}
+
 body {
-   background-image: url(images/backbody.jpg);
-   background-attachment: fixed;
+    background-image: url(home/background.svg);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
-#name {
-   color: #0000EE;
-   font-size: 75px;
-   font-family: 'Satisfy', cursive;
-   text-align: center;
-   text-shadow: 5px 5px 15px black;
-}
 
-nav {
-   font-family: 'Cookie', cursive;
-   text-align: center;
-   text-shadow: 1px 2px 4px black;
-   font-size: 0px;
-}
+/**/
+/*images*/
 
-a {
-   text-decoration: none;
-   color: yellow;
-   font-size: 30px;
-}
-
-footer {
-   text-align: center;
+.rimg{
+    margin: 0;
+    height:20px;
+    width:30px;
 }
 
 .iconsoc {
-   width: 32px;
-   height: 32px;
-   border-radius:50%;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+/**/
+.name {
+    text-align: center;
+    margin: 10px;
+}
+
+#name {
+    font-family: 'Marck Script', cursive;
+    font-size: 50px;
+    color: #007FFF;
+    margin: 5px auto;
+}
+
+a {
+    color: #00A86B;
+}
+
+nav > a{
+    font-family: 'Cookie', cursive;
+    font-size: 45px;
+}
+
+nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
+    -webkit-box-pack: center;
+            justify-content: center;
+    padding: 0 300px;
+}
+#soc{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient:horizontal;
+    -webkit-box-direction:normal;
+        -ms-flex-direction:row;
+            flex-direction:row;
+    margin:5px 45px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.copy-right{
+    display:-webkit-inline-box;
+    display:-ms-inline-flexbox;
+    display:inline-flex;
+    font-size: 13px;
 }
