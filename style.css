@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(home/background.svg);
+    background-color:#D3D3D3;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -48,14 +48,15 @@ body {
 
 .head {
     text-align: center;
+    margin: 10px;
 }
 
 #head {
     font-family: 'Marck Script', cursive;
     font-size: 50px;
     color: #007FFF;
+    margin: 5px auto;
 }
-
 a {
     color: #00A86B;
 }

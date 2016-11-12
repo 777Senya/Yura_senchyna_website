@@ -28,8 +28,8 @@ body {
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
 }
 
-#iam {
-    margin: 0 0 10px 0;
+#brather {
+    margin: 10px auto;
 }
 
 #fat {
@@ -37,7 +37,7 @@ body {
     width: 350px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
-    margin: 0 0 10px 0;
+    margin: 10px auto;
 }
 
 .port {
@@ -57,7 +57,7 @@ body {
     width: 350px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
-    margin: 10px 0 0 0;
+    margin: 10px auto;
 }
 
 #group {
@@ -65,7 +65,7 @@ body {
     width: 350px;
     border-radius: 300px 300px 300px 300px;
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.5);
-    margin: 0 0 10px 0;
+    margin: 10px auto;
 }
 
 #ol {
