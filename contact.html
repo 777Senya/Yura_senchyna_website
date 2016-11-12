@@ -16,9 +16,9 @@
 <body>
 
     <header>
-        <div class="name">
+        <div class="head">
             <a href="index.html">
-                <h1 id="name">Юрій Сенчина</h1>
+                <h1 id="head">Юрій Сенчина</h1>
             </a>
         </div>
     </header>
@@ -34,7 +34,7 @@
         </iframe>
         <article>
             <h2 id="contactme">
-                Contackt me
+                Contact me
             </h2>
             <hr class="hr">
             <p>
@@ -46,21 +46,25 @@
                 </a>
             </p>
             <hr class="hr">
-            <h2 id="contactme">
-                Feedback
-            </h2>
             <form method="POST" action="">
-                <div id="form">
-                    <label for="Name">First name:<span>*</span>:</label>
-                    <input type="text" name="Name" id="Name" required placeholder="Name" autocomplete/><span></span>
-                    <label for="Surname">Last name:<span>*</span>:</label>
-                    <input type="text" name="Surname" id="Surname" required placeholder="Surname" /><span></span>
-                    <label for="tel">Tel.Number<span>*</span>:</label>
-                    <input type="tel" name="Surname" id="Surname" required placeholder="+XXXXXXXXXXXX" pattern="^\+\d{2}\d{3}\d{3}\d{2}\d{2}$" /><span></span>
-                    <label for="Email">Your Email<span>*</span>:</label>
-                    <input type="email" name="Email" id="Email" required placeholder="simple@example.com" /><span></span><br>
-                    <input type="submit" name="submit" class="submit" />
-                </div>
+                <fieldset>
+                    <legend>
+                        <h2 id="contactme">
+                            Feedback
+                        </h2>
+                    </legend>
+                    <div id="form">
+                        <label for="name">First name:<span>*</span>:</label>
+                        <input type="text" name="name" id="name" required placeholder="Name"/><span></span>
+                        <label for="surname">Last name:<span>*</span>:</label>
+                        <input type="text" name="surname" id="surname" required placeholder="Surname" /><span></span>
+                        <label for="tel">Tel.Number<span>*</span>:</label>
+                        <input type="tel" name="tel" id="tel" required placeholder="+XXXXXXXXXXXX" pattern="^\+\d{2}\d{3}\d{3}\d{2}\d{2}$" /><span></span>
+                        <label for="email">Your Email<span>*</span>:</label>
+                        <input type="email" name="email" id="email" required placeholder="simple@example.com" /><span></span><br>
+                        <input type="submit" name="submit" class="submit" id="submit" />
+                    </div>
+                </fieldset>
             </form>
         </article>
     </section>
@@ -90,6 +94,13 @@
             <img class="rimg" src="home/r.png"><i>2016 Юрій Сенчина</i>
         </div>
     </footer>
+    
+    <script 
+        src="https://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/valid.js"></script>
 </body>
 
 </html>

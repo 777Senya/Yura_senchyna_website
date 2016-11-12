@@ -41,12 +41,12 @@ body {
 
 /**/
 
-.name {
+.head {
     text-align: center;
     margin: 10px;
 }
 
-#name {
+#head {
     font-family: 'Marck Script', cursive;
     font-size: 50px;
     color: #007FFF;
@@ -106,8 +106,13 @@ label {
     display: block;
 }
 
-#form {
-    display: block;
+fieldset{
+    width:500px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+form{
+    margin:0 0 7px 0;
 }
 
 input {
@@ -198,3 +203,5 @@ span {
     display: inline-flex;
     font-size: 13px;
 }
+
+/**/

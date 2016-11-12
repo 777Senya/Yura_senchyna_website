@@ -43,12 +43,12 @@ body {
 
 /**/
 
-.name {
+.head {
     text-align: center;
     margin: 10px;
 }
 
-#name {
+#head {
     font-family: 'Marck Script', cursive;
     font-size: 50px;
     color: #007FFF;
