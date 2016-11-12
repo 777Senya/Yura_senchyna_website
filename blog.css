@@ -10,7 +10,7 @@
 }
 
 body {
-   background-image: url(home/background.svg);
+   background-color:#D3D3D3;
    background-attachment: fixed;
    background-size: cover;
 }
