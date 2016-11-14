@@ -35,9 +35,9 @@ body {
 
 .foto_article {
     margin-top: 5px;
-    border: 20px solid;
+    border: 35px solid;
     -o-border-image: url(home/ramka.png) 20 stretch;
-    border-image: url(home/ramka.png) 20 stretch;
+    border-image: url(home/ramka.png) 35 stretch;
 }
 
 

@@ -90,7 +90,7 @@ section {
     width: 500px;
 }
 
-#contactme {
+.contactme {
     color: Turquoise;
     font-family: 'Shrikhand', cursive;
 }
