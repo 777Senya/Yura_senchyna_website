@@ -99,10 +99,6 @@ color: green; cursor: pointer; }
    width:200px;
 }
 
-button{
-   margin:0 0 0 245px;
-}
-
 input{
    border: 3px solid #cfcfcf;
    border-radius: 3px;

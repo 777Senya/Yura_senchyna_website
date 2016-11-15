@@ -40,7 +40,7 @@ body {
 
 .foto_article {
     margin-top: 5px;
-    border: 30px solid;
+    border: 25px solid;
     -o-border-image: url(home/ramka.png) 20 stretch;
     border-image: url(home/ramka.png) 35 stretch;
 }
@@ -65,7 +65,7 @@ a {
 }
 
 nav>a {
-    font-size: 25px;
+    font-size: 28px;
     font-family: 'Cookie', cursive;
 }
 
