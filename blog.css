@@ -118,6 +118,7 @@ input {
    color: #444444;
    padding: 7px 7px 8px;
    width: 250px;
+   display:none;
 }
 
 #icon-s {
