@@ -60,6 +60,24 @@ nav {
     padding: 0 60px;
 }
 
+/*контент*/
+.news_content{
+   display: flex;
+   flex-direction: column;
+   margin:10px 0 10px 0;
+}
+
+.news_items{
+   width: 283px;
+   margin: 10px auto;
+}
+
+.news_items>p{
+   font-size: 20px;
+   color:black;
+}
+/**/
+
 #soc {
     display: -webkit-box;
     display: -ms-flexbox;
