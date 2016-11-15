@@ -1,7 +1,7 @@
 /*для границ строницы*/
 
 * {
-    max-width: 450px;
+    max-width: 1280px;
     margin: 0px auto;
 }
 
@@ -21,9 +21,15 @@ body {
 
 /*images*/
 
+.rimg {
+    margin: 0;
+    height: 20px;
+    width: 30px;
+}
+
 .iconsoc {
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
 }
 
@@ -31,13 +37,15 @@ body {
 /**/
 
 .head {
+    display: flex;
+    justify-content: center;
     text-align: center;
     margin: 10px;
 }
 
 #head {
     font-family: 'Marck Script', cursive;
-    font-size: 45px;
+    font-size: 50px;
     color: #007FFF;
     margin: 5px auto;
 }
@@ -47,8 +55,8 @@ a {
 }
 
 nav>a {
-    font-size: 28px;
     font-family: 'Cookie', cursive;
+    font-size: 45px;
 }
 
 nav {
@@ -60,67 +68,8 @@ nav {
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
     justify-content: center;
-    padding: 0 60px;
+    padding: 0 300px;
 }
-
-#search {
-    display: flex;
-    flex-direction: column;
-    margin: 0 2px 0 23.5px;
-}
-
-#search-icon {
-    display: flex;
-    flex-direction: row;
-    margin: 30px 0 0 13px;
-}
-
-#spresult {
-    width: 200px;
-    margin: 0 70px 0 0;
-}
-
-input {
-    border: 3px solid #cfcfcf;
-    border-radius: 3px;
-    font-size: 12px;
-    color: #444444;
-    padding: 4px 4px 5px;
-    width: 250px;
-}
-
-#icon-s {
-    padding: 0;
-}
-
-button {
-    margin: 0;
-    height: 27px;
-    width: 27px;
-    padding: 0;
-}
-
-
-/*контент*/
-
-.news_content {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 0 10px 0;
-}
-
-.news_items {
-    width: 283px;
-    margin: 10px auto;
-}
-
-.news_items>p {
-    font-size: 20px;
-    color: black;
-}
-
-
-/**/
 
 #soc {
     display: -webkit-box;
@@ -139,5 +88,5 @@ button {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 10px;
+    font-size: 13px;
 }

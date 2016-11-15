@@ -10,7 +10,7 @@
 }
 
 body {
-   background-color:#D3D3D3;
+   background-color: #D3D3D3;
    background-attachment: fixed;
    background-size: cover;
 }
@@ -33,17 +33,18 @@ body {
    border-radius: 50%;
 }
 
-#tram{
-   height:500px;
-   width:800px;
-   border-radius:25px;
+#tram {
+   height: 500px;
+   width: 800px;
+   border-radius: 25px;
 }
+
 
 /**/
 
 .head {
-   display:flex;
-   justify-content:center;
+   display: flex;
+   justify-content: center;
    text-align: center;
    margin: 10px;
 }
@@ -75,31 +76,42 @@ nav {
    justify-content: center;
    padding: 0 300px;
 }
+
+
 /*Пошук*/
+
+
 /*Поиск маркер*/
+
 span.highlight {
-background-color: yellow; cursor: pointer; }
+   background-color: yellow;
+   cursor: pointer;
+}
 
 span.splink {
-color: green; cursor: pointer; }
+   color: green;
+   cursor: pointer;
+}
+
+
 /**/
-#search{
-   display:flex;
-   flex-direction:column;
-   
+
+#search {
+   display: flex;
+   flex-direction: column;
 }
 
-#search-icon{
-   display:flex;
-   flex-direction:row;
-   margin:0 0 30px 970px;
+#search-icon {
+   display: flex;
+   flex-direction: row;
+   margin: 0 0 30px 970px;
 }
 
-#spresult{
-   width:200px;
+#spresult {
+   width: 200px;
 }
 
-input{
+input {
    border: 3px solid #cfcfcf;
    border-radius: 3px;
    font-size: 14px;
@@ -107,31 +119,39 @@ input{
    padding: 7px 7px 8px;
    width: 250px;
 }
-#icon-s{
-   padding:0;
-}
-button{
-   margin:0;
-   height:35px;
-   width:35px;
-   padding:0;
-}
-/*контент*/
-.news_content{
-   display: flex;
-   flex-direction: row;
-   margin:30px 0 10px 0;
+
+#icon-s {
+   padding: 0;
 }
 
-.news_items{
+button {
+   margin: 0;
+   height: 35px;
+   width: 35px;
+   padding: 0;
+}
+
+
+/*контент*/
+
+.news_content {
+   display: flex;
+   flex-direction: row;
+   margin: 30px 0 10px 0;
+}
+
+.news_items {
    width: 283px;
 }
 
-.news_items>p{
+.news_items>p {
    font-size: 22px;
-   color:black;
+   color: black;
 }
+
+
 /**/
+
 #soc {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -151,4 +171,3 @@ button{
    display: inline-flex;
    font-size: 13px;
 }
-

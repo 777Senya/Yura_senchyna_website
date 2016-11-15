@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color:#D3D3D3;
+    background-color: #D3D3D3;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -59,13 +59,13 @@ nav {
     padding: 0 60px;
 }
 
-fieldset{
-    width:332px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+fieldset {
+    width: 332px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-form{
-    margin:0 0 7px 0;
+form {
+    margin: 0 0 7px 0;
 }
 
 iframe {
