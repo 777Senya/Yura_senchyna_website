@@ -33,10 +33,17 @@ body {
    border-radius: 50%;
 }
 
+#tram{
+   height:500px;
+   width:800px;
+   border-radius:25px;
+}
 
 /**/
 
 .head {
+   display:flex;
+   justify-content:center;
    text-align: center;
    margin: 10px;
 }
@@ -68,7 +75,67 @@ nav {
    justify-content: center;
    padding: 0 300px;
 }
+/*Пошук*/
+/*Поиск маркер*/
+span.highlight {
+background-color: yellow; cursor: pointer; }
 
+span.splink {
+color: green; cursor: pointer; }
+/**/
+#search{
+   display:flex;
+   flex-direction:column;
+   
+}
+
+#search-icon{
+   display:flex;
+   flex-direction:row;
+   margin:0 0 30px 970px;
+}
+
+#spresult{
+   width:200px;
+}
+
+button{
+   margin:0 0 0 245px;
+}
+
+input{
+   border: 3px solid #cfcfcf;
+   border-radius: 3px;
+   font-size: 14px;
+   color: #444444;
+   padding: 7px 7px 8px;
+   width: 250px;
+}
+#icon-s{
+   padding:0;
+}
+button{
+   margin:0;
+   height:35px;
+   width:35px;
+   padding:0;
+}
+/*контент*/
+.news_content{
+   display: flex;
+   flex-direction: row;
+   margin:30px 0 10px 0;
+}
+
+.news_items{
+   width: 283px;
+}
+
+.news_items>p{
+   font-size: 22px;
+   color:black;
+}
+/**/
 #soc {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -88,3 +155,4 @@ nav {
    display: inline-flex;
    font-size: 13px;
 }
+

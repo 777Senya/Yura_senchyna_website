@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -28,24 +28,119 @@
         <a href="blog.html">Blog</a>
     </nav>
     <article>
-        <div class="news">
-            <h2>У львові з рейок зійшов трамвай</h2>
-            <img src="news/news-tramvaij.jpg" id="tram" alt="peaple sit in tram"></img>
+        <div id="search-icon">
+        <div id="search">
+            <input id="spterm" type="text" name="spterm" placeholder="Пошук...">
+            <div id="spresult">&nbsp;</div>
         </div>
-        <hr>
-        <div class="news">
-            
+        <button><img src="iconsoc/search.svg" id="icon-s"></button>
         </div>
-        <hr>
-        <div class="news">
-            
+        <div class="news_content">
+            <div class="news_items">
+                <img src="news/ukr-telekom.jpg">
+                <p>
+                    У "Интертелкома" изъяли оборудование. Более миллиона абонентов остались без связи
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/alib.jpg">
+                <p>
+                    На распродаже в День холостяка Alibaba продал товаров на 1$ млрд за 5 минут
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/samsung.jpg">
+                <p>
+                    Samsung покупает Harman за $8 млрд в попытке выйти на рынок автомобильной электроники
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/cup.jpg">
+                <p>
+                    Starbucks выбрал дизайн украинки для рождественского офрмления своих чашек
+                </p>
+            </div>
         </div>
-        <hr>
-        <div class="news">
-            
+        <!---2---->
+        <div class="news_content">
+            <div class="news_items">
+                <img src="news/brother.jpg">
+                <p>
+                    Как братья Мюррей ушли из корпоративного сектора и основали миллиардный бизнес
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/bot.jpg">
+                <p>
+                    Как боты в Twitter влияли на выборы в США
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/insta.jpg">
+                <p>
+                    Instagram обновил Stories и работает над запуском прямых трансляций
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/push-yevedoml.jpg">
+                <p>
+                    Push-уведомления в браузере 1,5 года спустя: статистика и полезные советы
+                </p>
+            </div>
         </div>
-        <div class="news">
-            
+        <!---3---->
+        <div class="news_content">
+            <div class="news_items">
+                <img src="news/vk-money.jpg">
+                <p>
+                    Вконтакте запустил безналичные денежные переводы в Украину
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/ukr-zal.jpg">
+                <p>
+                    Укрзалізниця запустила мобильную версию продажи билетов в онлайне
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/Lybed.jpg">
+                <p>
+                    Первый украинский телеком-спутник "Лыбидь" запустят на орбиту в 2017 году
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/trump-stop.jpg">
+                <p>
+                    Киевский программист написал плагин, который блокирует в Facebook посты о выборах и Трампе
+                </p>
+            </div>
+        </div>
+        <!---4---->
+        <div class="news_content">
+            <div class="news_items">
+                <img src="news/yes-privichka.jpg">
+                <p>
+                    Украинцы создали iOS-приложение, которое поможет вырабатывать полезные привычки
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/seckret.jpg">
+                <p>
+                    Разработчики возраждают сервис анонимного общения Secret
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/canada.jpg">
+                <p>
+                    Трамп побеждает - иммиграционный сайт Канады падает
+                </p>
+            </div>
+            <div class="news_items">
+                <img src="news/man.png">
+                <p>
+                    Впервые в Украине компании могут работать с любыми фрилансерами по безналичному расчету
+                </p>
+            </div>
         </div>
     </article>
     <hr>
@@ -74,6 +169,10 @@
             <img class="rimg" src="home/r.png" alt="r simble"><i>2016 Юрій Сенчина</i>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="js/search.js"></script>
+    <script type="text/javascript" src="js/icon-search.js"></script>
 </body>
 
 </html>

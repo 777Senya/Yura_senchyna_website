@@ -42,15 +42,17 @@ body {
 /**/
 
 .head {
-    text-align: center;
-    margin: 10px;
+   display:flex;
+   justify-content:center;
+   text-align: center;
+   margin: 10px;
 }
 
 #head {
-    font-family: 'Marck Script', cursive;
-    font-size: 50px;
-    color: #007FFF;
-    margin: 5px auto;
+   font-family: 'Marck Script', cursive;
+   font-size: 50px;
+   color: #007FFF;
+   margin: 5px auto;
 }
 
 a {
@@ -91,7 +93,7 @@ section {
 }
 
 .contactme {
-    color: Turquoise;
+    color: #FE6F5E;
     font-family: 'Shrikhand', cursive;
 }
 
