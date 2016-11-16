@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
    jQuery(this).after(jQuery(this).html()).remove();
   });
   var t = '';
-  jQuery('div.news_content').each(function() { // в селекторе задаем область поиска
+  jQuery('p, h2').each(function() { // в селекторе задаем область поиска
    jQuery(this).html(jQuery(this).html().replace(new RegExp(term, 'ig'), '<span class="highlight">$&</span>')); // выделяем найденные фрагменты
    n = jQuery('span.highlight').length; // количество найденных фрагментов
    console.log('n = ' + n);

@@ -40,7 +40,6 @@ body {
 
 
 /**/
-
 .head {
     display: flex;
     justify-content: center;
@@ -54,14 +53,13 @@ body {
     color: #007FFF;
     margin: 5px auto;
 }
-
-a {
-    color: #00A86B;
+a:active{
+    color:#007d50;
 }
-
 nav>a {
     font-family: 'Cookie', cursive;
     font-size: 45px;
+    color: #00A86B;
 }
 
 nav {

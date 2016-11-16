@@ -101,13 +101,13 @@ body {
     margin: 5px auto;
 }
 
-a {
-    color: #00A86B;
+a:active{
+    color:#007d50;
 }
-
 nav>a {
     font-size: 28px;
     font-family: 'Cookie', cursive;
+    color: #00A86B;
 }
 
 nav {
