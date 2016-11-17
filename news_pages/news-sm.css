@@ -68,80 +68,107 @@ nav {
     justify-content: center;
     padding: 0 60px;
 }
+
+
 /*Пошук*/
 
 
 /*Поиск маркер*/
 
 span.highlight {
-   background-color: yellow;
-   cursor: pointer;
+    background-color: yellow;
+    cursor: pointer;
 }
 
 span.splink {
-   color: green;
-   cursor: pointer;
+    color: green;
+    cursor: pointer;
 }
 
 
 /**/
 
 #search {
-   display: flex;
-   flex-direction: column;
-   margin: 0 5px 5px 5px;
-   max-width:200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 5px 5px 5px;
+    max-width: 200px;
 }
 
 #search-icon {
-   display: inline-flex;
-   flex-direction: row;
-   margin: 15px 0 0 70px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 15px 0 0 85px;
 }
 
 #spresult {
-   width: 200px;
+    width: 200px;
 }
 
 input {
-   border: 3px solid #cfcfcf;
-   border-radius: 3px;
-   font-size: 14px;
-   color: #444444;
-   padding: 7px 7px 8px;
-   width: 200px;
-   display:none;
+    border: 3px solid #cfcfcf;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #444444;
+    padding: 7px 7px 8px;
+    width: 200px;
+    display: none;
 }
 
 #icon-s {
-   padding: 0;
+    padding: 0;
 }
 
 button {
-   margin: 0 0 0 20px;
-   height: 35px;
-   width: 35px;
-   padding: 0;
+    margin: 0 0 0 20px;
+    height: 35px;
+    width: 35px;
+    padding: 0;
 }
+
+
 /**/
-.article{
-    display:flex;
-    flex-direction:column;
-    max-width:450px;
-    margin: 5px auto;
-    background-color:#ffffff;
-    padding:5px;
+
+.article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 430px;
+    margin: 5px 5px;
+    background-color: #ffffff;
+    padding: 5px;
 }
-.ya-share2{
-    text-align:right;
+
+.img_content {
+    display: none;
 }
-h2{
+
+.ya-share2 {
+    text-align: right;
+}
+
+h2 {
     font-family: 'Oswald', sans-serif;
-    font-size:27px;
+    font-size: 27px;
 }
-p{
+
+p {
     font-family: 'Slabo 27px', serif;
-    font-size:16px;
+    font-size: 16px;
 }
 
 #soc {

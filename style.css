@@ -55,7 +55,11 @@ body {
 /**/
 
 .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
     margin: 10px;
@@ -67,9 +71,11 @@ body {
     color: #007FFF;
     margin: 5px auto;
 }
-a:active{
-    color:#007d50;
+
+a:active {
+    color: #007d50;
 }
+
 nav>a {
     font-family: 'Cookie', cursive;
     font-size: 45px;

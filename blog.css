@@ -43,37 +43,43 @@ body {
 /**/
 
 .head {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 10px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   text-align: center;
+   margin: 10px;
 }
 
 #head {
-    font-family: 'Marck Script', cursive;
-    font-size: 50px;
-    color: #007FFF;
-    margin: 5px auto;
+   font-family: 'Marck Script', cursive;
+   font-size: 50px;
+   color: #007FFF;
+   margin: 5px auto;
 }
-a:active{
-    color:#007d50;
+
+a:active {
+   color: #007d50;
 }
+
 nav>a {
-    font-family: 'Cookie', cursive;
-    font-size: 45px;
-    color: #00A86B;
+   font-family: 'Cookie', cursive;
+   font-size: 45px;
+   color: #00A86B;
 }
 
 nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: distribute;
-    -webkit-box-pack: center;
-    justify-content: center;
-    padding: 0 300px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-flow: row nowrap;
+   flex-flow: row nowrap;
+   -ms-flex-pack: distribute;
+   -webkit-box-pack: center;
+   justify-content: center;
+   padding: 0 300px;
 }
 
 
@@ -96,13 +102,23 @@ span.splink {
 /**/
 
 #search {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: column;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+           flex-direction: column;
 }
 
 #search-icon {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
    margin: 0 0 30px 970px;
 }
 
@@ -117,7 +133,7 @@ input {
    color: #444444;
    padding: 7px 7px 8px;
    width: 250px;
-   display:none;
+   display: none;
 }
 
 #icon-s {
@@ -135,14 +151,20 @@ button {
 /*контент*/
 
 .news_content {
+   display: -webkit-box;
+   display: -ms-flexbox;
    display: flex;
-   flex-direction: row;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
    margin: 30px 0 10px 0;
 }
 
 .news_items {
    width: 283px;
 }
+
 p:hover {
    color: #DD4536;
 }
@@ -151,7 +173,6 @@ p {
    font-size: 22px;
    color: black;
 }
-
 
 
 /**/

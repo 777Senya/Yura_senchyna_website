@@ -42,9 +42,10 @@ body {
     margin: 5px auto;
 }
 
-a:active{
-    color:#007d50;
+a:active {
+    color: #007d50;
 }
+
 nav>a {
     font-size: 28px;
     font-family: 'Cookie', cursive;
@@ -64,7 +65,7 @@ nav {
 }
 
 fieldset {
-    width: 332px;
+    width: 325px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 

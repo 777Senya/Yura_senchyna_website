@@ -1,7 +1,7 @@
 /*для границ строницы*/
 
 * {
-    max-width: 450px;
+    max-width: 1280px;
     margin: 0px auto;
 }
 
@@ -21,9 +21,15 @@ body {
 
 /*images*/
 
+.rimg {
+    margin: 0;
+    height: 20px;
+    width: 30px;
+}
+
 .iconsoc {
-    width: 35px;
-    height: 35px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
 }
 
@@ -31,25 +37,30 @@ body {
 /**/
 
 .head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     text-align: center;
     margin: 10px;
 }
 
 #head {
     font-family: 'Marck Script', cursive;
-    font-size: 45px;
+    font-size: 50px;
     color: #007FFF;
     margin: 5px auto;
 }
 
-a:active {
-    color: #007d50;
+a {
+    color: #00A86B;
 }
 
 nav>a {
-    font-size: 28px;
     font-family: 'Cookie', cursive;
-    color: #00A86B;
+    font-size: 45px;
 }
 
 nav {
@@ -61,8 +72,27 @@ nav {
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
     justify-content: center;
-    padding: 0 60px;
+    padding: 0 300px;
 }
+
+
+/*Пошук*/
+
+
+/*Поиск маркер*/
+
+span.highlight {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+span.splink {
+    color: green;
+    cursor: pointer;
+}
+
+
+/**/
 
 #search {
     display: -webkit-box;
@@ -72,32 +102,32 @@ nav {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0 0 0 25px;
+    margin: 0 5px 5px 5px;
+    max-width: 200px;
 }
 
 #search-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin: 30px 0 0 13px;
+    margin: 15px 285px 0 730px;
 }
 
 #spresult {
     width: 200px;
-    margin: 0 70px 0 0;
 }
 
 input {
     border: 3px solid #cfcfcf;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 14px;
     color: #444444;
-    padding: 4px 4px 5px;
-    width: 250px;
+    padding: 7px 7px 8px;
+    width: 200px;
     display: none;
 }
 
@@ -106,16 +136,16 @@ input {
 }
 
 button {
-    margin: 0 0 0 2px;
-    height: 27px;
-    width: 27px;
+    margin: 0 0 0 20px;
+    height: 35px;
+    width: 35px;
     padding: 0;
 }
 
 
-/*контент*/
+/**/
 
-.news_content {
+.article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -123,21 +153,43 @@ button {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 10px 0 10px 0;
+    max-width: 700px;
+    margin: 5px auto;
+    background-color: #ffffff;
+    padding: 5px;
+    box-shadow: 5px 1px 29px 3px #46a2d9;
 }
 
-.news_items {
-    width: 283px;
-    margin: 10px auto;
+p>a {
+    color: red;
+    text-decoration: underline;
 }
 
-.news_items>p {
-    font-size: 20px;
-    color: black;
+.img_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: auto;
+    height: auto;
 }
 
+.ya-share2 {
+    text-align: right;
+}
 
-/**/
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+}
+
+p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 18px;
+}
 
 #soc {
     display: -webkit-box;
@@ -156,5 +208,5 @@ button {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
-    font-size: 10px;
+    font-size: 13px;
 }
