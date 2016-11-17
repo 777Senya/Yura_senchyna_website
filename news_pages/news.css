@@ -54,6 +54,10 @@ body {
     margin: 5px auto;
 }
 
+a:active {
+    color: #007d50;
+}
+
 a {
     color: #00A86B;
 }
