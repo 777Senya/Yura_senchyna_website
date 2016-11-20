@@ -61,7 +61,7 @@ nav {
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
     justify-content: center;
-    padding: 0 45px;
+    max-width: 450px;
 }
 
 fieldset {
@@ -76,7 +76,7 @@ form {
 iframe {
     border-radius: 10%;
     border: 4px;
-    width: 300px;
+    width: 350px;
     height: 300px;
 }
 

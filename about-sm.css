@@ -79,7 +79,7 @@ nav {
     -ms-flex-pack: distribute;
     -webkit-box-pack: center;
     justify-content: center;
-    padding: 0 45px;
+    max-width: 450px;
 }
 
 article {
