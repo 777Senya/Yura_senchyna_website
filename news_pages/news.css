@@ -181,7 +181,7 @@ p>a {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 5px 0 5px 0;
+    margin: 10px 0 10px 0;
 }
 
 .img_width {
