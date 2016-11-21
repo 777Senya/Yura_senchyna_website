@@ -207,6 +207,10 @@ p {
     font-size: 18px;
 }
 
+#disqus_thread {
+    width: 750px;
+}
+
 #soc {
     display: -webkit-box;
     display: -ms-flexbox;

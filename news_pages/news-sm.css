@@ -183,6 +183,10 @@ p {
     font-size: 16px;
 }
 
+#disqus_thread {
+    width: 350px;
+}
+
 #soc {
     display: -webkit-box;
     display: -ms-flexbox;
